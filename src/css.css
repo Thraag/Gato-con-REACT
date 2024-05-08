@@ -1,0 +1,52 @@
+
+#app {
+    background-color: #bb9393;
+}
+
+html {
+    background-color: #bb9393;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+td {
+    
+    border-radius: 30px; /* Bordes redondos para cada celda */
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 20px;
+    background-color: #805252; /* Cambia el fondo al pasar el mouse */
+
+
+}
+
+/* Estilo para resaltar cada celda al pasar el mouse */
+td:hover {
+    background-color: #b96e6e; /* Cambia el fondo al pasar el mouse */
+}
+
+.tic-tac-toe-title {
+    color: #805252; 
+    }
+    
+    .btn.btn-primary {
+    color: white;
+    background: #805252;
+    border-color: #805252;
+    transition: background-color 0.3s; /* Agregamos una transición suave */
+    &:hover { 
+        background: #c79a9a; /* Cambia este valor al color que desees */
+        border-color: #805252;
+    }
+}
